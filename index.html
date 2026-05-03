@@ -14,7 +14,7 @@
             font-family: 'Roboto', sans-serif;
             text-align: center;
             margin: 0;
-            padding: 0;
+            padding: 15px;
             background-image: url(recursos/kamu.jpg); 
             background-size: cover;
             background-position: center;
@@ -23,12 +23,13 @@
 
         .container {
             background: rgba(0, 0, 0, 0.85); /* Fondo oscuro semitransparente */
-            padding: 40px;
+            padding: 20px;
             max-width: 800px;
             margin: 50px auto;
             border: 2px solid #e5a93d; /* Borde dorado Yakuza */
             box-shadow: 0 0 20px #e5a93d;
             border-radius: 10px;
+            box-sizing: border-box;
         }
 
         h1 {
@@ -39,6 +40,14 @@
             text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 15px #ff007f; 
             text-transform: uppercase;
             margin-bottom: 10px;
+            word-wrap: break-word;
+        }
+        .morgan-freeman-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
         }
 
         .dance-img {
@@ -67,7 +76,7 @@
 
         <img src="recursos/you.jpg" alt="You" style="max-width: 100%; border-radius: 5px; margin: 20px 0;">
 
-        <div class="morgan-freeman-section">
+        <div class="freeman">
             <img src="recursos/gordondance.gif" alt="Freeman dance" class="dance-img">
             <p class="mensaje">Feliz cumpleaños Leo... 20 años la criatura</p>
             
